@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+<link rel="stylesheet" type="text/css" href="remodal.css">
+<link rel="stylesheet" type="text/css" href="remodal-default-theme.css">
+<script src="https://kit.fontawesome.com/adf1728403.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/jquery.min.js"></script>
+<script type="text/javascript" src="remodal.min.js"></script>
+<script src="jquery.min.js" type="text/javascript"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="navi">
+        <ul class="container">
+            <li><a href="#title"><i class="fas fa-home"></i>TOP</a></li>
+            <li><a href="#profile"><i class="fas fa-user-circle"></i>PROFILE</a></li>
+            <li><a href="#works"><i class="fas fa-briefcase"></i>WORKS</a></li>
+    
+        </ul>
+    </div>
+     <div class="keyvisual">
+        <div class="top">
+        <p class="star star1"><img src="img/topa_001.png"></p>
+<div id="title">
+    
+<h1 class="animate__animated animate__rubberBand">PORTFOLIO</h1>
+</div>
+</div>
+     </div>
+  
+     <div id="profile">
+         <h1>PROFILE</h1>
+         <p><img src="img/id.jpg"></p>
+        <p>名前：　山田智子<br />
+        趣味：特技：　イラスト、フルート<br />
+        連絡先：　satoko.yamada@dwn.co.jp<br />
+        2013年にデータウェアネットワーク株式会社入社。<br />
+            研修の後出向し、webエンジニアとして働きました。<br />
+        主な業務内容はwebページの制作、更新。バナー画像やチラシ広告の制作。<br />
+            googleアナリティクスを私用したアクセス解析です。<br />
+            必要に応じ、セミナーのご案内ページと受付フォームも制作しておりました。</p>
+     </div>
+
+
+     
+
+
+  </div>
+     <div id="works">
+        <h1>WORKS</h1>
+         <ul>
+            <li>
+            <div class="workbox">
+            <div class="btn js-btn-modal" data-id="1">
+                   <p><img src="img/img_workbox01.jpg"></p>
+                   <div class="title">HTML、CSS</div>
+               </div>  
+            </div>
+        </li>
+        <li>
+            <div class="workbox">
+            <div class="btn js-btn-modal" data-id="2">
+           
+                   <p><img src="img/img_workbox02.jpg"></p>
+                   <div class="title">CMS</div>
+               </div>
+               </div>
+            </li>
+            <li>
+            <div class="workbox">
+            <div class="btn js-btn-modal" data-id="3">
+                   <p><img src="img/img_workbox03.jpg"></p>
+                   <div class="title">バナー画像・チラシ広告の制作</div>
+               </div>
+            </div>
+        </li>
+        <li>
+            <div class="workbox">
+            <div class="btn js-btn-modal" data-id="4">
+                   <p><img src="img/img_workbox04.jpg"></p>
+                   <div class="title">制作物</div>
+               </div>
+       
+            </div>
+       </li>
+    </ul>
+</div>  
+            
+     </div> 
+      <div class="overlay" id="overlay">
+            
+            <div class="modal js-modal" data-id="modal1">
+              <button class="modal-close-btn js-close-btn"><i class="fa fa-times" title="閉じる"></i></button>
+              <p>業務内容としましては、既存のECサイトに1ページ新規で追加したり文言修正を行っておりました。既存のスタイルシートを活かしつつ、 さらに変更が必要な場合はイメージを損なわないようにスタイルの更新をしております。</p>
+              <p>使用言語：HTML、CSS、javaScript、Wordpress、CMS</p>
+              <dl class="box">
+                  <dt>2020.10.05</dt>
+                      <dd>問い合わせフォームの制作、洋菓子の写真選別</dd>   
+                  <dt>2020.09.28</dt>
+                      <dd>経歴内容を3ページ分完成。</dd>   
+                      <dt>2020.09.25</dt>
+                      <dd>バナーページに掲載するバナー画像の制作をする。</dd>   
+                      <dt>2020.09.24</dt>
+                      <dd>商品表示一覧を制作。並びがうまくいかずちょっと苦戦。</dd>  
+                      <dt>2020.09.23</dt>
+                      <dd>ランキングリストの制作。
+                        再現はやはり難しい。</dd>  
+                  <dt>2020.09.16</dt>
+                      <dd>経歴内容（現ページ）の制作に着手。スクリーンショットより直接表示した方が伝わるように感じた。</dd>   
+                  <dt>2020.09.15</dt>
+                      <dd>トップ画面のアニメーションを考える。プラグインでも様々なアニメーションがそんざいする模様。</dd>   
+                  <dt>2020.09.14</dt>
+                      <dd>プロフィール画面にスキルのグラフを掲載することに決定。reactで表示する方法を模索。</dd>    
+            <dt>2020.09.11</dt>
+                      <dd>分岐エラーが解消したので各画面を中央表示されるように調整。</dd>
+            <dt>2020.09.09</dt>
+                      <dd>経歴部分がまとまったので分岐を試してみる。しかし何かエラーが発生しているもよう。</dd>
+            <dt>2020.09.08</dt>
+                      <dd>モーダルウィンドウを予定していた経歴部分をどう掲載するか思索中。リンクに変更予定。</dd>
+            <dt>2020.09.04</dt>
+                      <dd>ページ制作をReactに変更。動画を見直してポートフォリオサイトに作業環境を構築。</dd>
+            <dt>2020.09.02</dt>
+                      <dd>モーダルウィンドウの実装に苦戦中。jQueryのプラグインがとても多い。</dd>
+                      <dt>2020.09.01</dt>
+                      <dd>ポートフォリオのモックアップ作業を進めています。</dd>
+                    </dl>
+            </div>
+            <div class="modal js-modal" data-id="modal2">
+              <button class="modal-close-btn js-close-btn"><i class="fa fa-times" title="閉じる"></i></button>
+              <div>
+                <p></p>その他、通販サイト上でCMSを使って商品リストやランキングの更新を行っておりました。</p>
+                <div class="rankingArea">
+                    <div class="list">
+                <ol class="ranking">
+                
+                <li>タイトル</li>
+                
+                <li>タイトル</li>
+                
+                <li>タイトル</li>
+                <li>タイトル</li>
+
+                <li>タイトル</li>
+
+                <li>タイトル</li>
+
+                <li>タイトル</li>
+                <li>タイトル</li>
+
+                <li>タイトル</li>
+
+                <li>タイトル</li>
+
+                </ol>
+                </div></div>
+                </div>
+            </div>
+            <div class="modal js-modal" data-id="modal3">
+               <button class="modal-close-btn js-close-btn"><i class="fa fa-times" title="閉じる"></i></button>
+               <p>これまでに制作したバナーになります。</p>
+                <img src="img/bnr001.jpg" >
+                <img src="img/bnr002.jpg" >
+                <img src="img/bnr003.jpg" >
+
+             </div>
+             <div class="modal js-modal" data-id="modal4">
+               <button class="modal-close-btn js-close-btn"><i class="fa fa-times" title="閉じる"></i></button>
+               <img src="img/topb3.jpg">
+               <p>制作物は<a href="https://rotosux.github.io/portfolio/" target="_blank">Reactのページ</a>にまとめております。</p>
+             </div>
+       </div>
+
+
+
+             
+
+
+             </li>
+
+    </ul>
+     </div>  
+
+<script>
+        'use strict';
+        $('.js-btn-modal').on('click', function(){
+  $('#overlay').fadeIn();
+  var id = $(this).data('id');
+  $('.js-modal[data-id="modal' + id + '"]').fadeIn();
+});
+
+$('.js-close-btn').on('click', function(){
+  $('#overlay').fadeOut();
+  $('.js-modal').fadeOut();
+});
+$('#overlay').on('click', function(){
+  $('#overlay').fadeOut();
+  $('.js-modal').fadeOut();
+});
+    </script>
+
+ <script src="script.js"></script>
+</body>
+</html>
