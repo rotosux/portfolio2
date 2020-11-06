@@ -1,16 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-
 <link rel="stylesheet" type="text/css" href="remodal.css">
 <link rel="stylesheet" type="text/css" href="remodal-default-theme.css">
 <script src="https://kit.fontawesome.com/adf1728403.js" crossorigin="anonymous"></script>
 <script type="text/javascript" src="/jquery.min.js"></script>
-<script type="text/javascript" src="remodal.min.js"></script>
 <script src="jquery.min.js" type="text/javascript"></script>
     <title>Document</title>
 </head>
@@ -39,10 +37,9 @@
         <p>名前：　山田智子<br />
         趣味：特技：　イラスト、フルート<br />
         連絡先：　satoko.yamada@dwn.co.jp<br />
-        2013年にデータウェアネットワーク株式会社入社。<br />
-            研修の後出向し、webエンジニアとして働きました。<br />
+        2013年に就業。研修の後出向し、webエンジニアとして働きました。<br />
         主な業務内容はwebページの制作、更新。バナー画像やチラシ広告の制作。<br />
-            googleアナリティクスを私用したアクセス解析です。<br />
+            googleアナリティクスを使用したアクセス解析です。<br />
             必要に応じ、セミナーのご案内ページと受付フォームも制作しておりました。</p>
      </div>
 
@@ -175,33 +172,11 @@
              </div>
        </div>
 
-
-
-             
-
-
              </li>
 
     </ul>
      </div>  
 
-<script>
-        'use strict';
-        $('.js-btn-modal').on('click', function(){
-  $('#overlay').fadeIn();
-  var id = $(this).data('id');
-  $('.js-modal[data-id="modal' + id + '"]').fadeIn();
-});
-
-$('.js-close-btn').on('click', function(){
-  $('#overlay').fadeOut();
-  $('.js-modal').fadeOut();
-});
-$('#overlay').on('click', function(){
-  $('#overlay').fadeOut();
-  $('.js-modal').fadeOut();
-});
-    </script>
 
  <script src="script.js"></script>
 </body>
